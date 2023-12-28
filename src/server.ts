@@ -1,7 +1,7 @@
 import { createApp } from "./prices_typed";
 import { InMemoryDatabase } from "./database";
 
-const port = 5010;
+const port = 3000;
 const app = createApp(new InMemoryDatabase().withTestData());
 app.listen(port);
 
